@@ -1,0 +1,26 @@
+{
+  "minigc.prefix": "[Mini Game Collection]",
+
+  "minigc.config.title": "Mini Game Collection Configuration",
+  "minigc.config.category.general": "General Settings",
+  "minigc.config.game_mode_switch.enabled": "Enable Game Mode Switch",
+  "minigc.config.game_mode_switch.enabled.tooltip": "Automatically switch game modes every few seconds",
+  "minigc.config.game_mode_switch.interval": "Switch Interval (seconds)",
+  "minigc.config.game_mode_switch.interval.tooltip": "How often to switch game modes (1-300 seconds)",
+
+  "minigc.command.gamemode.enable.success": "Game mode switch enabled!",
+  "minigc.command.gamemode.disable.success": "Game mode switch disabled!",
+  "minigc.command.gamemode.interval.success": "Switch interval set to %s seconds!",
+  "minigc.command.status": "Mini Game Collection Status: Game Mode Switch: %s, Interval: %s seconds, Game Active: %s",
+  "minigc.command.enabled": "Enabled",
+  "minigc.command.disabled": "Disabled",
+  "minigc.command.active": "Active",
+  "minigc.command.inactive": "Inactive",
+  "minigc.command.error.game_active": "Cannot change this setting while a game is active!",
+
+  "minigc.game_mode.switch": "%s's game mode has been changed to %s!",
+  "minigc.game_mode.survival": "Survival Mode",
+  "minigc.game_mode.creative": "Creative Mode",
+  "minigc.game_mode.adventure": "Adventure Mode",
+  "minigc.game_mode.spectator": "Spectator Mode"
+}

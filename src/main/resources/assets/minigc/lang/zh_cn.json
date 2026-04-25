@@ -1,0 +1,26 @@
+{
+  "minigc.prefix": "[小游戏集合]",
+
+  "minigc.config.title": "小游戏集合配置",
+  "minigc.config.category.general": "通用设置",
+  "minigc.config.game_mode_switch.enabled": "启用游戏模式切换",
+  "minigc.config.game_mode_switch.enabled.tooltip": "每隔几秒自动切换游戏模式",
+  "minigc.config.game_mode_switch.interval": "切换间隔（秒）",
+  "minigc.config.game_mode_switch.interval.tooltip": "游戏模式切换的频率（1-300秒）",
+
+  "minigc.command.gamemode.enable.success": "游戏模式切换已启用！",
+  "minigc.command.gamemode.disable.success": "游戏模式切换已禁用！",
+  "minigc.command.gamemode.interval.success": "切换间隔已设置为 %s 秒！",
+  "minigc.command.status": "小游戏集合状态：游戏模式切换：%s，间隔：%s 秒，游戏活跃：%s",
+  "minigc.command.enabled": "已启用",
+  "minigc.command.disabled": "已禁用",
+  "minigc.command.active": "活跃",
+  "minigc.command.inactive": "非活跃",
+  "minigc.command.error.game_active": "游戏活跃时无法更改此设置！",
+
+  "minigc.game_mode.switch": "%s 的游戏模式已更改为 %s！",
+  "minigc.game_mode.survival": "生存模式",
+  "minigc.game_mode.creative": "创造模式",
+  "minigc.game_mode.adventure": "冒险模式",
+  "minigc.game_mode.spectator": "旁观者模式"
+}

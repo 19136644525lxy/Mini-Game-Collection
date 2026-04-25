@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "minigc",
+	"version": "${version}",
+	"name": "Mini Game Collection",
+	"description": "A collection of mini games",
+	"authors": [
+		"Yifei"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/minigc/textures/gui/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"qituo.minigc.MiniGameCollection"
+		],
+		"fabric-datagen": [
+			"qituo.minigc.MiniGameCollectionDataGenerator"
+		],
+		"modmenu": [
+			"qituo.minigc.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"minigc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"modmenu": ">=7.0.0"
+	}
+}
